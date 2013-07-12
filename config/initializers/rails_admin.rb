@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # RailsAdmin config file. Generated on July 11, 2013 17:42
+=======
+# RailsAdmin config file. Generated on July 11, 2013 21:07
+>>>>>>> upstream/master
 # See github.com/sferik/rails_admin for more informations
 
 RailsAdmin.config do |config|

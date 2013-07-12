@@ -4,7 +4,13 @@
 # Examples:
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+<<<<<<< HEAD
 #   Mayor.create(name: 'Emanuel', city: cities.first
 
 Admin.create! email: "lhlalves4@gmail.com", password: "123456789"
 Admin.create! email: "adriano.godoy@planb.com.br", password: "123456789"
+=======
+#   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Admin.create! email: "contato@adrianogodoy.com", password: "12345678"
+>>>>>>> upstream/master

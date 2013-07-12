@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+<<<<<<< HEAD
   attr_accessible :name, :oauth_expires_at, :oauth_token, :provider, :uid, :image
 
   has_attached_file :image, :styles => { :medium => "300x300>", 
@@ -7,6 +8,11 @@ class User < ActiveRecord::Base
 
 validates_attachment_size :image, :less_than => 3.megabytes
 validates_attachment_content_type :image, :content_type => ['image/jpeg', 'image/png']
+=======
+  attr_accessible :name, :oauth_expires_at, :oauth_token, :provider, :uid, :image, :phrase
+
+  has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "100x100>" }
+>>>>>>> upstream/master
 
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|

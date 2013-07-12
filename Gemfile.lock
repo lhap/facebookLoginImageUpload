@@ -29,7 +29,11 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     arel (3.0.2)
+<<<<<<< HEAD
     bcrypt-ruby (3.1.1-x86-mingw32)
+=======
+    bcrypt-ruby (3.0.1)
+>>>>>>> upstream/master
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
     builder (3.0.4)
@@ -44,7 +48,10 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+<<<<<<< HEAD
     daemons (1.1.9)
+=======
+>>>>>>> upstream/master
     devise (2.2.4)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -56,7 +63,11 @@ GEM
       multi_json (~> 1.0)
     faraday (0.8.7)
       multipart-post (~> 1.1)
+<<<<<<< HEAD
     font-awesome-rails (3.2.1.2)
+=======
+    font-awesome-rails (3.2.1.1)
+>>>>>>> upstream/master
       railties (>= 3.2, < 5.0)
     haml (4.0.3)
       tilt
@@ -82,11 +93,19 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.23)
+<<<<<<< HEAD
     mini_portile (0.5.1)
     multi_json (1.7.7)
     multipart-post (1.2.0)
     nested_form (0.3.2)
     nokogiri (1.6.0-x86-mingw32)
+=======
+    mini_portile (0.5.0)
+    multi_json (1.7.7)
+    multipart-post (1.2.0)
+    nested_form (0.3.2)
+    nokogiri (1.6.0)
+>>>>>>> upstream/master
       mini_portile (~> 0.5.0)
     oauth2 (0.8.1)
       faraday (~> 0.8)
@@ -103,13 +122,20 @@ GEM
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
     orm_adapter (0.4.0)
+<<<<<<< HEAD
     paperclip (3.4.2)
+=======
+    paperclip (3.4.1)
+>>>>>>> upstream/master
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.0)
       mime-types
+<<<<<<< HEAD
     pg (0.15.1-x86-mingw32)
+=======
+>>>>>>> upstream/master
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -154,8 +180,13 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+<<<<<<< HEAD
     remotipart (1.2.1)
     safe_yaml (0.9.4)
+=======
+    remotipart (1.0.5)
+    safe_yaml (0.9.3)
+>>>>>>> upstream/master
     sass (3.2.9)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -189,12 +220,17 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  bootstrap-sass (~> 2.3.2.0)
   coffee-rails (~> 3.2.1)
   devise
   jquery-rails
   omniauth-facebook (= 1.4.0)
+<<<<<<< HEAD
   paperclip
   pg
+=======
+  paperclip (~> 3.0)
+>>>>>>> upstream/master
   rails (= 3.2.11)
   rails_admin
   sass-rails (~> 3.2.3)

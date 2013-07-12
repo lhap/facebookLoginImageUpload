@@ -6,6 +6,8 @@ gem 'paperclip'
 gem 'rails_admin'
 gem 'devise'
 gem 'omniauth-facebook', '1.4.0'
+gem 'rails_admin'
+gem "paperclip", "~> 3.0"
 
 
 group :production do
@@ -24,9 +26,11 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'bootstrap-sass', '~> 2.3.2.0'
 
   gem 'uglifier', '>= 1.0.3'
 end
 
 gem 'jquery-rails'
 
+gem "devise"

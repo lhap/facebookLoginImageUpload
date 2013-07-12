@@ -1,5 +1,10 @@
 FacebookLoginImageUpload::Application.routes.draw do
 
+
+  put "users/participate"
+  get "permalink/:id" => "users#permalink"
+  
+
   devise_for :admins
 
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
