@@ -2,9 +2,22 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
 
-gem 'sqlite3'
-
+gem 'paperclip'
+gem 'rails_admin'
+gem 'devise'
 gem 'omniauth-facebook', '1.4.0'
+
+
+group :production do
+	gem 'pg'
+	gem 'thin'
+end
+
+group :development do
+	gem 'sqlite3'
+
+end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
